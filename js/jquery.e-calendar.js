@@ -186,6 +186,21 @@
             {title: 'Ostrowski Prize 2015 in Copenhagen KU',
             description: '<a href="http://www.math.ku.dk/english/calendar/events/ostrowski-prize-2015/">Gerd Faltings and Peter Scholze</a>',
             datetime: new Date(2015, 10, 30, 14)},
+            {title: 'Seminar in Copenhagen KU',
+            description: '<a href="http://www.math.ku.dk/english/calendar/events/amilcar-pacheco/">Amilcar Pacheco: An analogue of Brauer-Siegel for abelian varieties</a>',
+            datetime: new Date(2015, 9, 22, 10)},
+            {title: 'Seminar in Copenhagen KU',
+            description: '<a href="http://www.math.ku.dk/english/calendar/events/andre-chatzistamatiou/">Andre Chatzistamatiou: Integrality of p-adic integrals</a>',
+            datetime: new Date(2015, 9, 25, 14)},
+            {title: 'Seminar in Copenhagen KU',
+            description: '<a href="">Ian Petrow</a>',
+            datetime: new Date(2015, 11, 29, 14)},
+            {title: 'N-cube days III',
+            description: '<a href="">Day 1 at Chalmers, Göteborg</a>',
+            datetime: new Date(2015, 12, 04, 13)},
+            {title: 'N-cube days III',
+            description: '<a href="">Day 2 at Chalmers, Göteborg</a>',
+            datetime: new Date(2015, 12, 05, 09)},
         ]
     };
 
