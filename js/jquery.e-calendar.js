@@ -197,10 +197,10 @@
             datetime: new Date(2015, 11, 29, 14)},
             {title: 'N-cube days III',
             description: '<a href="">Day 1 at Chalmers, Göteborg</a>',
-            datetime: new Date(2015, 12, 04, 13)},
+            datetime: new Date(2015, 12, 4, 13)},
             {title: 'N-cube days III',
             description: '<a href="">Day 2 at Chalmers, Göteborg</a>',
-            datetime: new Date(2015, 12, 05, 09)},
+            datetime: new Date(2015, 12, 5, 09)},
         ]
     };
 
