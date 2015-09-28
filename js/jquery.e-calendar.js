@@ -201,7 +201,7 @@
             {title: 'N-cube days III',
             description: '<a href="days-iii">Day 2 at Chalmers, Göteborg</a>',
             datetime: new Date(2015, 11, 5, 9)},
-            //Months variable are shifted by -1, i.e. Months variables are in [0,11]
+            //Months variable is in [0,11]
         ]
     };
 
