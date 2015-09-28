@@ -122,7 +122,7 @@
                     }
                     for (var j = 0; j < settings.events.length; j++) {
                         var d = settings.events[j].datetime;
-                        if (d.getDate() == day && (d.getMonth() - 1) == dMonth && d.getFullYear() == dYear) {
+                        if (d.getDate() == day && d.getMonth() == dMonth && d.getFullYear() == dYear) {
                             cDay.addClass('c-event').attr('data-event-day', d.getDate());
                             cDay.on('mouseover', mouseOverEvent).on('mouseleave', mouseLeaveEvent);
                         }
@@ -137,8 +137,8 @@
             var eventList = $('<div/>').addClass('c-event-list');
             for (var i = 0; i < settings.events.length; i++) {
                 var d = settings.events[i].datetime;
-                if ((d.getMonth() - 1) == dMonth && d.getFullYear() == dYear) {
-                    var date = lpad(d.getDate(), 2) + '/' + lpad(d.getMonth(), 2) + ' ' + lpad(d.getHours(), 2) + ':' + lpad(d.getMinutes(), 2);
+                if (d.getMonth() == dMonth && d.getFullYear() == dYear) {
+                    var date = lpad(d.getDate(), 2) + '/' + lpad(d.getMonth()+1, 2) + ' ' + lpad(d.getHours(), 2) + ':' + lpad(d.getMinutes(), 2);
                     var item = $('<div/>').addClass('c-event-item');
                     var title = $('<div/>').addClass('title').html(date + '  ' + settings.events[i].title + '<br/>');
                     var description = $('<div/>').addClass('description').html(settings.events[i].description + '<br/>');
@@ -173,34 +173,35 @@
             {title: 'Conference in Aarhus', description: 'Diophantine Approximation and Related Topics.', datetime: new Date(2015, 7, 12,12)},
             {title: 'Seminar in Göteborg',
             description: '<a href="http://www.math.chalmers.se/~tamos/marco.html">Marco Maculan: GIT and Diophantine Approximation</a> (6 sem)',
-            datetime: new Date(2015, 8, 24, 13)},
+            datetime: new Date(2015, 7, 24, 13)},
             {title: 'Seminar in Copenhagen KU',
             description: '31/08 - <a href="http://www.math.ku.dk/english/calendar/events/ntseminar_tsaltas/">Konstantinos Tsaltas: Bianchi modular forms</a>',
-            datetime: new Date(2015, 8, 30, 16)},
+            datetime: new Date(2015, 7, 30, 16)},
             {title: 'Seminar in Copenhagen KU',
             description: '<a href="http://www.math.ku.dk/english/calendar/events/yuri-bilu/">Yuri Bilu: Special Points on Straight Lines and Hyperbolas</a>',
-            datetime: new Date(2015, 9, 4, 14)},
+            datetime: new Date(2015, 8, 4, 14)},
             {title: 'Seminar in Copenhagen KU',
             description: '<a href="http://www.math.ku.dk/english/calendar/events/kentaro-mitsui/">Kentaro Mitsui: Closed points on torsors</a>',
-            datetime: new Date(2015, 9, 18, 14)},
+            datetime: new Date(2015, 8, 18, 14)},
             {title: 'Ostrowski Prize 2015 in Copenhagen KU',
             description: '<a href="http://www.math.ku.dk/english/calendar/events/ostrowski-prize-2015/">Gerd Faltings and Peter Scholze</a>',
-            datetime: new Date(2015, 10, 30, 14)},
+            datetime: new Date(2015, 9, 30, 14)},
             {title: 'Seminar in Copenhagen KU',
             description: '<a href="http://www.math.ku.dk/english/calendar/events/amilcar-pacheco/">Amilcar Pacheco: An analogue of Brauer-Siegel for ab varieties</a>',
-            datetime: new Date(2015, 9, 22, 10)},
+            datetime: new Date(2015, 8, 22, 10)},
             {title: 'Seminar in Copenhagen KU',
             description: '<a href="http://www.math.ku.dk/english/calendar/events/andre-chatzistamatiou/">Andre Chatzistamatiou: Integrality of p-adic integrals</a>',
-            datetime: new Date(2015, 9, 25, 14)},
+            datetime: new Date(2015, 8, 25, 14)},
             {title: 'Seminar in Copenhagen KU',
             description: '<a href="">Ian Petrow</a>',
-            datetime: new Date(2015, 11, 29, 14)},
+            datetime: new Date(2015, 10, 29, 14)},
             {title: 'N-cube days III',
             description: '<a href="days-iii">Day 1 at Chalmers, Göteborg</a>',
-            datetime: new Date(2015, 12, 4, 13)},
+            datetime: new Date(2015, 11, 4, 13)},
             {title: 'N-cube days III',
             description: '<a href="days-iii">Day 2 at Chalmers, Göteborg</a>',
-            datetime: new Date(2015, 12, 5, 9)},
+            datetime: new Date(2015, 11, 5, 9)},
+            //Months variable are shifted by -1, i.e. Months variables are in [0,11]
         ]
     };
 
