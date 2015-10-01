@@ -196,10 +196,10 @@
             description: '<a href="">Ian Petrow</a>',
             datetime: new Date(2015, 10, 29, 14)},
             {title: 'N-cube days III',
-            description: '<a href="days-iii">Day 1 at Chalmers, Göteborg</a>',
+            description: '<a href="daysiii.html">Day 1 at Chalmers, Göteborg</a>',
             datetime: new Date(2015, 11, 4, 13)},
             {title: 'N-cube days III',
-            description: '<a href="days-iii">Day 2 at Chalmers, Göteborg</a>',
+            description: '<a href="daysiii.html">Day 2 at Chalmers, Göteborg</a>',
             datetime: new Date(2015, 11, 5, 9)},
             //Months variable is in [0,11]
         ]
