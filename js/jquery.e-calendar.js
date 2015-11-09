@@ -193,7 +193,7 @@
             description: '<a href="http://www.math.ku.dk/english/calendar/events/andre-chatzistamatiou/">Andre Chatzistamatiou: Integrality of p-adic integrals</a>',
             datetime: new Date(2015, 8, 25, 14)},
             {title: 'Seminar in Copenhagen KU',
-            description: '<a href="http://www.math.ku.dk/english/research/tfa/alg/ntseminar/">Niko Laaksonen: Lattice Point Counting in Hyperbolic Space</a>',
+            description: '<a href="http://www.math.ku.dk/english/research/tfa/alg/ntseminar/">Niko Laaksonen: Lattice Point Counting in Hyperbolic Space.</a>',
             datetime: new Date(2015, 10, 6, 14)},
             {title: 'Seminar in Copenhagen KU',
             description: '<a href="http://www.math.ku.dk/english/research/tfa/alg/ntseminar/">Aftab Pande: A construction of p-adic Hilbert Modular forms.</a>',
