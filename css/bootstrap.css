@@ -5553,6 +5553,27 @@ a.list-group-item-danger.active:focus {
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #ddd;
 }
+/* FOR ABSTRACTS WITH PAGE COLOR */
+.panel-abstract {
+  border-color: #ddd;
+}
+.panel-abstract > .panel-heading {
+  color: #333;
+  background-color: #9df3ff;
+  border-color: #ddd;
+}
+.panel-abstract > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+  background-color: #9df3ff;
+}
+.panel-abstract > .panel-heading .badge {
+  color: #9df3ff;
+  background-color: #9df3ff;
+}
+.panel-abstract > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #9df3ff;
+}
+/* END PANEL ABSTRACT */
 .panel-primary {
   border-color: #337ab7;
 }
