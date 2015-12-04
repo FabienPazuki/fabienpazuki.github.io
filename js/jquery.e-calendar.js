@@ -214,6 +214,7 @@
             description: '<a href="daysiii.html">Day 2 at Chalmers, G&ouml;teborg</a>',
             datetime: new Date(2015, 11, 5, 9)},
             //Months variable is in [0,11]
+			//Date(year,month,day,hour)
         ]
     };
 
