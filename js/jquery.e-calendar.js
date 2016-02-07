@@ -219,6 +219,9 @@
             {title: 'N-cube days III',
             description: '<a href="daysiii.html">Day 2 at Chalmers, G&ouml;teborg</a>',
             datetime: new Date(2015, 11, 5, 9)},
+            {title: 'Seminar in Copenhagen KU',
+            description: '<a href="http://www.math.ku.dk/english/research/tfa/alg/ntseminar/">Robert Kucharczyk: On congruence subgroups of Fuchsian groups.</a>',
+            datetime: new Date(2016, 0, 18, 10)},
             //Months variable is in [0,11]
 			//Date(year,month,day,hour)
         ]
