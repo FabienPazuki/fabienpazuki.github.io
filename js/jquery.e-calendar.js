@@ -222,6 +222,12 @@
             {title: 'Seminar in Copenhagen KU',
             description: '<a href="http://www.math.ku.dk/english/research/tfa/alg/ntseminar/">Robert Kucharczyk: On congruence subgroups of Fuchsian groups.</a>',
             datetime: new Date(2016, 0, 18, 10)},
+            {title: 'Seminar in Copenhagen KU',
+            description: '<a href="http://www.math.ku.dk/english/research/tfa/alg/ntseminar/">Davide Veniani: Lines on K3 quartic surfaces.</a>',
+            datetime: new Date(2016, 0, 19, 15)},
+            {title: 'Seminar in Copenhagen KU',
+            description: '<a href="http://www.math.ku.dk/english/research/tfa/alg/ntseminar/">Daniel Bergh: Applications of destackification.</a>',
+            datetime: new Date(2016, 0, 20, 13)},
             //Months variable is in [0,11]
 			//Date(year,month,day,hour)
         ]
