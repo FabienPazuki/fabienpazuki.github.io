@@ -20,3 +20,7 @@ footer {
 .blue-text{
     color: #00cae7;
 }
+img.resize{
+    max-width:95%;
+    max-height:100%;
+}
