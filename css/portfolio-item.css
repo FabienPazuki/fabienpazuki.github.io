@@ -28,6 +28,7 @@ img.resize{
 .container_sponsors{
 	display:flex; 
 	align-items:center;
+	margin:30px;
 }
 
 .img-responsive2{
