@@ -29,7 +29,7 @@ img.resize{
 	display:flex; 
 	align-items:center;
 	margin:30px;
-	justify-content:space-around;
+	justify-content:space-between;
 }
 
 .img-responsive2{
