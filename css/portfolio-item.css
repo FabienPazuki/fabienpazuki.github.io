@@ -26,5 +26,11 @@ img.resize{
 }
 
 .container_sponsors{
-	display:flex;
+	display:flex; 
+	align-items:center;
+}
+
+.img-responsive2{
+    max-width:10%;
+    max-height:10%;
 }
