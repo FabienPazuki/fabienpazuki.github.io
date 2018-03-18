@@ -34,8 +34,7 @@ img.resize{
 }
 
 .img-responsive2{
-    max-width:55%;
-    max-height:55%;
+    height:20vh;
 }
 
 @media only screen and (max-width: 600px){
