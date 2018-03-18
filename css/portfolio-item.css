@@ -41,5 +41,6 @@ img.resize{
 	.container_sponsors{
 		display:flex;
 		flex-direction: column;
+		height:80vh;
 	}
 }
