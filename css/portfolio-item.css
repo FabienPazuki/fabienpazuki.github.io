@@ -37,3 +37,10 @@ img.resize{
     max-width:55%;
     max-height:55%;
 }
+
+@media only screen and (max-width: 600px){
+	.container_sponsors{
+		display:flex;
+		flex-direction: column;
+	}
+}
