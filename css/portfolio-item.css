@@ -5,42 +5,46 @@
  */
 
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    background-color: #9df3ff;
+  padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  background-color: #9df3ff;
 }
 
 .portfolio-item {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 footer {
-    margin: 50px 0;
+  margin: 50px 0;
 }
 
-.blue-text{
-    color: #00cae7;
+.blue-text {
+  color: #00cae7;
 }
-img.resize{
-    max-width:95%;
-    max-height:100%;
-}
-
-.container_sponsors{
-	display:flex; 
-	align-items:center;
-	margin-top:30px;
-	margin-bottom:60px;
-	justify-content:space-between;
+img.resize {
+  max-width: 95%;
+  max-height: 100%;
 }
 
-.img-responsive2{
-    height:15vh;
+.container_sponsors {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  justify-content: space-between;
 }
 
-@media only screen and (max-width: 600px){
-	.container_sponsors{
-		display:flex;
-		flex-direction: column;
-		height:80vh;
-	}
+.img-responsive2 {
+  height: 15vh;
+}
+
+.umea .img-responsive {
+  width: 331px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container_sponsors {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+  }
 }
